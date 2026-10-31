@@ -36,7 +36,7 @@
 
 在上述流程之外，AI **可以**按需要创建轻量脚本、界面、任务调度、数据读写与报告工具。它应先核实本地权限与数据接入条件，并取得用户对安装/联网/写操作的授权，再实施。**不强制使用任何语言、数据库或框架**。
 
-如果需要完整的现成数学控制引擎、Web UI 或 API，可另行使用 FCC Control Studio 完整版；本包不要求它一定存在。
+如果需要完整的现成数学控制引擎、Web UI 或 API，可另行使用 [FCC Control Studio 完整版](https://github.com/k8kb6fcbyy-arch/fcc-control-studio)；本包不要求它一定存在。
 
 ## AI 最少要问清楚什么？
 
@@ -55,6 +55,11 @@
 - 只提出建议不算执行，执行前后对比也不必然证明因果关系。
 - 面向高风险系统，需人工审批和独立安全措施。
 - 使用或再分发请遵守 `LICENSE` 和 `NOTICE` 中的来源署名要求；本许可证为**自定义 Source-Available 许可**，不是 OSI 标准开源许可证。
+
+## 相关仓库
+
+- **[FCC Control Studio 完整版](https://github.com/k8kb6fcbyy-arch/fcc-control-studio)** —— 含 Python 控制引擎（PID / MPC / Kalman 等可运行代码）、本地 API、Web UI 与数据库，适合需要真实数值计算、状态估计与可视化的场景。
+- **FCC Lite（本仓库）** —— 只有四个文件的纯提示词包，交给任何能读取文件的 AI 即可开始，不依赖任何运行环境。
 
 ## GitHub 仓库描述建议
 
