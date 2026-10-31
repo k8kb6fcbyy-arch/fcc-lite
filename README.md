@@ -60,7 +60,3 @@
 
 - **[FCC Control Studio 完整版](https://github.com/k8kb6fcbyy-arch/fcc-control-studio)** —— 含 Python 控制引擎（PID / MPC / Kalman 等可运行代码）、本地 API、Web UI 与数据库，适合需要真实数值计算、状态估计与可视化的场景。
 - **FCC Lite（本仓库）** —— 只有四个文件的纯提示词包，交给任何能读取文件的 AI 即可开始，不依赖任何运行环境。
-
-## GitHub 仓库描述建议
-
-**FCC Lite — A portable, domain-agnostic AI skill for goal-setting, measurement, feedback, checkpoint reporting and iterative improvement.**
